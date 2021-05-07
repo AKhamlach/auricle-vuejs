@@ -1,32 +1,29 @@
 <template>
-  <div class="about">
+  <div id="pricing">
     <section id="banner_parallax" class="inner_page_banner slide_banner1">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="full">
               <div class="slide_cont">
-                <h2>About us</h2>
+                <h2>Pricing</h2>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- end header -->
-    <!-- section -->
-    <AboutSection />
-    <!-- end section -->
-    <!-- section -->
-    <Steps />
-    <!-- end section -->
+
+    <Offers />
+    <ContactUs />
   </div>
 </template>
 <script>
-import AboutSection from "../components/SubComp/AboutSection";
-import Steps from "../components/SubComp/Steps";
+import Offers from "../components/SubComp/Offers";
+import ContactUs from "../components/SubComp/ContactUs";
+
 export default {
-  name: "AboutUs",
-  components: { AboutSection, Steps },
+  name: "Pricing",
+  components: { Offers, ContactUs },
 };
 </script>

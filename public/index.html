@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+    <!-- site icons -->
+    <link rel="icon" href="<%= BASE_URL %>images/fevicon/fevicon.png" type="image/png" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="<%= BASE_URL %>css/bootstrap.min.css" />
+    <!-- site css -->
+    <link rel="stylesheet" href="<%= BASE_URL %>css/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="<%= BASE_URL %>css/responsive.css" />
+    <!-- colors css -->
+    <link rel="stylesheet" href="<%= BASE_URL %>css/colors.css" />
+    <!-- wow animation css -->
+    <link rel="stylesheet" href="<%= BASE_URL %>css/animate.css" />
+    
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -13,5 +27,17 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+
+    <script src="<%= BASE_URL %>js/jquery.min.js"></script>
+      <script src="<%= BASE_URL %>js/popper.min.js"></script>
+      <script src="<%= BASE_URL %>js/bootstrap.min.js"></script>
+      <!-- wow animation -->
+      <script src="<%= BASE_URL %>js/wow.js"></script>
+      <!-- custom js -->
+      <script src="<%= BASE_URL %>js/custom.js"></script>
+      <!-- google map js -->
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js -->
   </body>
 </html>
